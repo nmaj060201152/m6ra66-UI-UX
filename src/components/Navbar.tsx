@@ -5,9 +5,9 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white text-black flex items-center justify-between p-4 shadow-md">
+    <nav className="bg-red text-black flex items-center justify-between p-4 shadow-md">
       {/* Logo Section */}
-      <div className="text-lg font-bold">E-Commerce</div>
+      <div className="text-lg font-bold">B-Commerce</div>
 
       {/* Hamburger Icon (Small Screens Only) */}
       <button
